@@ -1,8 +1,6 @@
-poss = [
-  'azqyur',
-  'pgvynd',
-  'gxsaqz',
-]
+from sys import argv
+
+poss = argv[1:]
 
 words = [
   'about', 'after', 'again', 'below', 'could',
