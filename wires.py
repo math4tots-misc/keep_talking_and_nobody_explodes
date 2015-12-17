@@ -47,7 +47,7 @@ def test(w, p):
       return 'first wire'
 
   elif len(w) == 6:
-    if 'y' not in w and parity():
+    if 'y' not in w and parity() == 'o':
       return 'third wire'
     elif w.count('y') == 1 and w.count('w') > 1:
       return 'fourth wire'
