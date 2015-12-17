@@ -67,5 +67,5 @@ step2 = {
 }
 
 while True:
-  print(step1[raw_input('step1: ')])
-  print(step2[raw_input('step2: ')])
+  print(step1[raw_input('step1: ').upper()])
+  print(step2[raw_input('step2: ').upper()])
